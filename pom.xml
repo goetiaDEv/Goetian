@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    
+    <!-- Informações do Projeto -->
+    <groupId>com.encryption.tool</groupId>
+    <artifactId>file-encryption-tool</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    
+    <name>File Encryption Tool</name>
+    <description>Uma ferramenta Java para criptografia e descriptografia de arquivos usando AES e RSA</description>
+    <url>https://github.com/seu-usuario/file-encryption-tool</url>
+    
+    <!-- Informações do Desenvolvedor -->
+    <developers>
+        <developer>
+            <id>seu-usuario</id>
+            <name>Seu Nome</name>
+            <email>seu.email@example.com</email>
+            <url>https://github.com/seu-usuario</url>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>America/Sao_Paulo</timezone>
+        </developer>
+    </developers>
+    
+    <!-- Licença -->
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    
+    <!-- Informações do SCM -->
+    <scm>
+        <connection>scm:git:git://github.com/seu-usuario/file-encryption-tool.git</connection>
+        <developerConnection>scm:git:ssh://github.com:seu-usuario/file-encryption-tool.git</developerConnection>
+        <url>https://github.com/seu-usuario/file-encryption-tool/tree/main</url>
+    </scm>
+    
+    <!-- Propriedades -->
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        
+        <!-- Versões das dependências -->
+        <junit.version>5.8.2</junit.version>
+        <mockito.version>4.6.1</mockito.version>
+        <maven.compiler.plugin.version>3.10.1</maven.compiler.plugin.version>
+        <maven.surefire.plugin.version>3.0.0-M7</maven.surefire.plugin.version>
+        <maven.shade.plugin.version>3.3.0</maven.shade.plugin.version>
+        <jacoco.maven.plugin.version>0.8.7</jacoco.maven.plugin.version>
+    </properties>
+    
+    <!-- Dependências -->
+    <dependencies>
+        <!-- JUnit 5 para testes -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <!-- Mockito para mocks nos testes -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    
+    <!-- Build Configuration -->
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+        
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            
