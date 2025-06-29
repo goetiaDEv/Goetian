@@ -206,15 +206,9 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ## 👨‍💻 Autor
 
 **Seu Nome**
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Seu Perfil](https://linkedin.com/in/seu-perfil)
-- Email: seu.email@example.com
-
-## 🙏 Agradecimentos
-
-- Oracle pela documentação excelente da JCA (Java Cryptography Architecture)
-- Comunidade Java pela manutenção dos algoritmos de criptografia
-- Todos os contribuidores que ajudaram a melhorar este projeto
+- GitHub: [@seu-usuario](https://github.com/goetiaDEv)
+- LinkedIn: [Seu Perfil](https://www.linkedin.com/in/ezequiel-abreu-)
+- Email: goetiadev@proton.me
 
 ## ⚠️ Aviso Legal
 
