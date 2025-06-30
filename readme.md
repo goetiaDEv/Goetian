@@ -206,8 +206,8 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ## 👨‍💻 Autor
 
 **Seu Nome**
-- GitHub: [@seu-usuario](https://github.com/goetiaDEv)
-- LinkedIn: [Seu Perfil](https://www.linkedin.com/in/ezequiel-abreu-)
+- GitHub: [@goetiaDEv](https://github.com/goetiaDEv)
+- LinkedIn: [Ezequiel Abreu](https://www.linkedin.com/in/ezequiel-abreu-)
 - Email: goetiadev@proton.me
 
 ## ⚠️ Aviso Legal
